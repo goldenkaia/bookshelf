@@ -8,3 +8,7 @@ function onClickMenuBtn() {
 }
 
 console.log(111);
+
+function seyHi() {
+  console.log("Hello world!");
+}
