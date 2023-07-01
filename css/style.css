@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+.header {
+  height: 64px;
+  border-radius: 0px 0px 8px 8px;
+  border: 1.5px solid #111;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /*-----*/
+  position: relative;
+  z-index: 100;
+}
+
+.box-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background: url("../images/Group\ 6.png"),
+    radial-gradient(
+      189.32% 190.93% at 59.76% -23.42%,
+      #4f2ee8 18.03%,
+      #fff 100%
+    );
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1s;
+}
+
+.box-menu.show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
