@@ -6,3 +6,5 @@ menuBtnEl.addEventListener("click", onClickMenuBtn);
 function onClickMenuBtn() {
   menuBoxEl.classList.toggle("show");
 }
+
+console.log(111);
