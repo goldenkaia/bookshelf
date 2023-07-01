@@ -12,3 +12,7 @@ console.log(111);
 function seyHi() {
   console.log("Hello world!");
 }
+
+function createRepository() {
+  console.log("new repository");
+}
